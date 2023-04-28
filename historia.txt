@@ -1,0 +1,224 @@
+    1  mkdir repo
+    2  cd repo
+    3  git init
+    4  touch krystyna
+    5  git add krystyna
+    6  git commit -m "dodano krystyne"
+    7  git config --global user.emai "jakub.walkowiak@uczen.zsk.poznan.pl"
+    8  git config --global user.name "Jakub-Walkowiak"
+    9  git commit -m "dodano krystyne"
+   10  git config --global user.email "walkowiakgames.jw@gmail.com"
+   11  git commit -m "dodano krystyne"
+   12  git remote add origin https://github.com/Jakub-Walkowiak/frank
+   13  git push
+   14  git push origin master
+   15  ls
+   16  git log --format="%an (%s)"
+   17  echo krystyna >> janusz
+   18  cat krystyna
+   19  git "janusz" >> krystyna
+   20  echo "janusz" >> krystyna
+   21  cat krystyna
+   22  git add .
+   23  git commit -m "dopisanie"
+   24  git log --stat
+   25  git log --author="janusz" -3 -- krystyna
+   26  git log --author="Jakub-Walkowiak" -3 -- krystyna
+   27  git shortlog
+   28  git log --oneline -2
+   29  git log -grep="zsk"
+   30  git log --grep="zsk"
+   31  mkdir rozczka
+   32  cd rozczka
+   33  git init
+   34  git remote add origin https://github.com/MSwiderski999/lewandowski
+   35  ls
+   36  git status
+   37  cat swiderski.html
+   38  git log
+   39  git commit -m "plonka"
+   40  git checkout main
+   41  git checkout -b main
+   42  git remote add origin https://github.com/MSwiderski999/test
+   43  mkdir sus
+   44  cd sus
+   45  git remote add origin https://github.com/MSwiderski999/test
+   46  mkdir aeaeae
+   47  cd aeaeae
+   48  git init
+   49  git checkout -b zsk
+   50  git branch\
+   51  git branch
+   52  mkdir allah
+   53  cd allah
+   54  git init
+   55  git branch
+   56  touch sus
+   57  git branch
+   58  git remote add origin https://github.com/MSwiderski999/lewandowski
+   59  git push origin main
+   60  touch a
+   61  git add .
+   62  git status
+   63  git commit -m "sus"
+   64  git push origin main
+   65  git push origin master
+   66  git init test
+   67  cd test
+   68  git log format=""
+   69  git log --format
+   70  git log --format -h
+   71  touch test
+   72  git add test
+   73  git commit -m "aaa"
+   74  git log --stat
+   75  git init samochod
+   76  cd samochod
+   77  code index.php
+   78  git add .
+   79  git commit -m "add index.php"
+   80  git branch zsk
+   81  git checkout zsk
+   82  code index.php
+   83  git add .
+   84  git commit -m "change index.php"
+   85  git checkout master
+   86  code index.php
+   87  git add .
+   88  git commit -m "change index.php"
+   89  git merge zsk
+   90  code index.php
+   91  git merge zsk
+   92  git add index.php
+   93  git commit -m "ups"
+   94  vi index.php
+   95  git checkout zsk
+   96  git status
+   97  git restore index.php
+   98  vi index.php
+   99  git checkout zsk
+  100  git status
+  101  git restore index.php
+  102  git status
+  103  git checkout zsk
+  104  rm index.php
+  105  git add *
+  106  git status
+  107  git commit -m "remove index.php"
+  108  git checkout master
+  109  git merge zsk
+  110  git status
+  111  rm index.php
+  112  git add .
+  113  git commit "ja po prostu w to nie wierze"
+  114  git commit -m "ja po prostu w to nie wierze"
+  115  cd ../
+  116  git clone https://github.com/MSwiderski999/1
+  117  git clone https://github.com/MSwiderski999/1
+  118  git clonegithub.com/MSwiderski999/1
+  119  git clone github.com/MSwiderski999/1
+  120  git clone https://github.com/MSwiderski999/1
+  121  cd 1
+  122  rm rudi
+  123  git add rudi
+  124  git commit -m "no more"
+  125  git push
+  126  cd ../
+  127  rm 1
+  128  rm -d 1
+  129  rm -dr 1
+  130  y
+  131  rm -rd samochod
+  132  y
+  133  git clone https://github.com/MSwiderski999/impostor
+  134  touch plik
+  135  git add plik
+  136  cd impostor
+  137  touch plik
+  138  git add plik
+  139  git commit -m "plik"
+  140  git push
+  141  echo "hahahahahaghahahahahahahahahahahahahahaahahha" > smiech
+  142  git add smiech
+  143  git commit -m "smieje sie"
+  144  git push
+  145  git pull
+  146  git push
+  147  cd desktop
+  148  touch plik
+  149  code plik
+  150  cd desktop
+  151  mkdir repos
+  152  cd repos
+  153  dir
+  154  git remote add origin https://github.com/janDuszynski/janusz.git
+  155  git init
+  156  git remote add origin https://github.com/janDuszynski/janusz.git
+  157  git clone https://github.com/janDuszynski/janusz.git
+  158  dir
+  159  cd janusz
+  160  dir
+  161  touch plik2222
+  162  git add .
+  163  git commit -m "logowanie"
+  164  git push
+  165  cd desktop
+  166  cd repos
+  167  cd janusz
+  168  git add .
+  169  dir
+  170  git commit -m "xd"
+  171  git push
+  172  touch file.txt
+  173  dir
+  174  echo "Nazwisko" > file.txt
+  175  cat file.txt
+  176  git add .
+  177  git commit -m "dodanie plik"
+  178  git push
+  179  echo " Duszyński" >> plik.txt
+  180  cat plik.txt
+  181  git add .
+  182  git commit -m "testtt"
+  183  git push
+  184  git log --author="banan" -2
+  185  git pull
+  186  echo "konfilkt" > text.txt
+  187  git add .
+  188  git commit -m "uwuwu"
+  189  git merge januszek
+  190  git merge origin januszek
+  191  branch
+  192  git branch
+  193  git clone https://github.com/janDuszynski/janusz.git
+  194  git branch
+  195  history
+  196  cd desktop
+  197  history > historia.txt
+  198  git clone https://github.com/Jakub-Walkowiak/gitujemy
+  199  cd gitujemy
+  200  touch test
+  201  git add test
+  202  git commit "commit test file"
+  203  git commit -m "commit test file"
+  204  git push
+  205  touch krystyna.docx
+  206  echo "walkowiak" >> krystyna.docx
+  207  git add .
+  208  git commit -m "krystyna"
+  209  git push
+  210  history
+  211  git log -2 --author="janusz"
+  212  git clone  https://github.com/MSwiderski999/gitsprawdzian
+  213  cd gitsprawdzian
+  214  echo "impostor" > sus
+  215  git add . 
+  216  git commit -m "impostors"
+  217  git push
+  218  git pull
+  219  code .
+  220  git add .
+  221  git commit -m "yeahhhh"
+  222  git push
+  223  history
+  224  history >> historia.txt
